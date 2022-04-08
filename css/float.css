@@ -68,6 +68,9 @@ header > .app-main-btn {
 .app-main-wrap .desc {
     margin: calc(var(--gutter-width) / 2) 0 var(--gutter-width);
 }
+.app-main-wrap .app-bg-cont {
+  overflow: hidden;
+}
 .app-main-wrap .app-bg-cont img{
     width: 100%;
 }
