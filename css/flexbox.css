@@ -1,0 +1,82 @@
+body{
+	height: 100%;
+	width: 100%;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	margin: 15px;
+	height: 5%;
+}
+.title {
+	text-align: center;
+	margin: 10px;
+	font-size: 24px;
+	font-weight: 700;
+
+	color: var(--title-color-desktop);
+}
+.header > nav{
+	margin-top: 16px;
+	width: 85%;
+	display: flex;
+	flex-direction: row;
+}
+.header > nav > li  {
+	list-style-type: none;
+	margin: 0px 20px;
+}
+.header > nav > li > a {
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--title-color-desktop);
+}
+.header > div {
+	width: 5%;
+	display: flex;
+}
+.header > div > button {
+	height: 30px;
+	width: 70px;
+	background-color: var(--button-color-desktop);
+	border: none;
+}
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	height: 90%;
+}
+main .title__layout  {
+	width: 70%;
+}
+main > .title__layout > .text {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+main > div > img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+main .sidebar {
+	width: 30%;
+}
+main .border {
+	border: solid 2px black;
+	margin: 20px;
+	width: 90%;
+	height: 95%;
+}
+footer{
+	height: 5%;
+}
+footer > .text {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
