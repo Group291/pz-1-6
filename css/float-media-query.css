@@ -1,11 +1,18 @@
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
 
+  .app-main-wrap {
+    height: initial;
+  }
+  
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+  .app-main-wrap {
+    height: initial;
+  }
 
 }
 
@@ -14,14 +21,13 @@
   .app-main-wrap .app-main{
     float: left;
     width: calc(75% - var(--gutter-width));
-    height: 100%;
     margin:0 var(--gutter-width) 0 0;
   }
 
   .app-main-wrap .app-sidebar{
     float: left;
     width: calc(25% - var(--gutter-width));
-    height: 100%;
+    min-height: 60.3rem;
     margin:0 0 0 var(--gutter-width);
   }
 }
